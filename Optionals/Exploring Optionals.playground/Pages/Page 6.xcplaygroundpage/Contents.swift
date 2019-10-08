@@ -25,8 +25,13 @@
  
  */
 // Type the code below this line...
-
-
+var dayOfWeek: String
+if dayOfWeek != nil{
+    let day = dayOfWeek!
+    print("The day is \(dayOfWeek)")
+}else{
+    print("no day was provided")
+}
 /*:
  
  Now, run the playground.

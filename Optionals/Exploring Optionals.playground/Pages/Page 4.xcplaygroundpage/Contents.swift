@@ -15,8 +15,13 @@
  
  */
 // Type the code below this line...
-
-
+var x: Int?
+var y: Int?
+if x == y{
+    print("varibles are equal")
+}else{
+    print("variables Not equal")
+}
 /*:
  
  Is an empty string the same as a *nil* value?
